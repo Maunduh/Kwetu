@@ -1,21 +1,20 @@
-.Title {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 40px;
-  }
+.home{
+    width: 100px;
+}
+
   .meals {
-    width: 70%;
+    width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
   }
   
   .meal {
-    border-radius: 15px;
-    width: 300px;
+    border-radius: 2px;
+    width: 300 px;
     height: 350px;
-    margin: 100px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,6 +23,7 @@
   
   .meal img {
     width: 400px;
+    height: 600px;
   }
   
   .meal .description {
